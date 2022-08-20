@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+/**
+* printing of the Area of a rectangle
+* users input the values of length and breadth
+*return 0
+*/
+
+int main()
+{
+    int a;
+
+    int b;
+
+    printf("Enter the value of lenght\n");
+    scanf("%d", &a);
+
+    printf("Enter the value of breadth\n");
+    scanf("%d", &b);
+
+    printf("The area of a Rectangle %d", a*b);
+    return 0;
+}

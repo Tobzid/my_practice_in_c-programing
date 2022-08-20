@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+/**
+* a program to calculate the area of a trangle
+*return 0
+*/
+int main()
+{
+    int a = 9;
+    int b = 4;
+    int c = a*b;
+    printf("The area of a rectangle of lenghth = %d and breadth = %d\n", a, b);
+    printf("The area of the rectangle is %d", c);
+    return 0;
+}
+
+

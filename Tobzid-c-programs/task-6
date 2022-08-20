@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+/**
+* calculate the area of a circle and modify the same program
+* to calculate the volume of a cylinder given its radius and height
+*return 0
+*/
+int main()
+
+{
+    int a;
+    int b;
+    float c = 1.33333;
+
+    printf("Enter the value of lenght\n");
+    scanf("%d", &a);
+    printf("Enter the value of breadth\n");
+    scanf("%d", &b);
+    printf("The area of a Rectangle %d", a*b);
+
+    printf("Enter the value of lenght\n");
+    scanf("%d", &a);
+    printf("Enter the value of breadth\n");
+    scanf("%d", &b);
+    printf("The volume of a circle is %f %d %d", c*a*b);
+    return 0;
+}

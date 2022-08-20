@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/**
+* print out the value of Harry and harry.
+* this are my practice project.
+*return 0.
+*/
+
+int main()
+{
+    int a = 7;
+    int b = 17;
+    int c = a*b;
+    printf("Enter a number, maybe 7\n");
+    scanf("the number is 7: %d", a);
+    printf("the value entered is:%d", a);
+    printf("\nEnter the second number, \n");
+    scanf("the second number is 17: %d", b);
+    printf("the value of the two number multiplication is: %d %d\n", a, b);
+    printf("the value of c is: %d", c);
+    return 0;
+}

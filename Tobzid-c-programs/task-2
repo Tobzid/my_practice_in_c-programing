@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+/**
+* print out the value of Harry and harry.
+*return 0.
+*/
+
+int main()
+{
+    int harry = 7;
+    int Harry = 17;
+    printf("Hello Harry and Harry is:%d\n", Harry);
+    printf("Hello harry and harry is:%d\n", harry);
+    return 0;
+}

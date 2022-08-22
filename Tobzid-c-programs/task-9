@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+* Print out even numbers and
+* Have the numbers beside the even numbers
+* return 0.
+*/
+
+int main()
+{
+    int i;
+    printf("Even Numbers Odd Numbers\n");
+    for (i = 0; i < 10; i++)
+        if (i%2 == 0)
+        printf("%d", i);
+    else
+        printf("%17d\n", i);
+    return 0;
+}
